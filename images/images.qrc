@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>overview.png</file>
+        <file>receive.png</file>
+        <file>send.png</file>
+        <file>transaction.png</file>
+        <file>add_bottom.png</file>
+        <file>add_left.png</file>
+        <file>add_right.png</file>
+        <file>add_top.png</file>
+        <file>branch_close.png</file>
+        <file>branch_open.png</file>
+        <file>checkbox_checked.png</file>
+        <file>checkbox_checked_disable.png</file>
+        <file>checkbox_unchecked.png</file>
+        <file>checkbox_unchecked_disable.png</file>
+        <file>radiobutton_checked.png</file>
+        <file>radiobutton_checked_disable.png</file>
+        <file>radiobutton_unchecked.png</file>
+        <file>radiobutton_unchecked_disable.png</file>
+    </qresource>
+</RCC>

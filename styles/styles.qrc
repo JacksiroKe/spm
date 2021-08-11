@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tab.qss</file>
+    </qresource>
+</RCC>
