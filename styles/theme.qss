@@ -1,144 +1,100 @@
+
 * {
-    background-color: #000000;
-    color: #000000;
-}
-
-/* QMenuBar */
-
-QMenuBar {
-    background-color: #000000;
-}
-
-QMenuBar::item {
-    color: #F0F0F0;
-}
-
-QMenuBar::item:selected, QMenuBar::item:pressed {
-    background-color: #A6A5A5;
-    color: #F0F0F0;
-}
-
-QMenuBar::item:disabled, QMenuBar::item:disabled:hover, QMenuBar::item:disabled:pressed {
-    background-color: #4B4B4B;
-    color: #A6A5A5;
-}
-
-
-/* QMenu */
-
-QMenu {
-    border: none;
-}
-
-QMenu::item {
-    padding: 10px 20px;
-    font-size: 12px;
-}
-
-QMenu::item:enabled:selected {
-    background-color: #636363;
-    color: #F0F0F0;
-}
-
-QMenu::icon {
-    margin-left: 25px;
-}
-
-QMenu::separator {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 4px;
-    margin-right: 4px;
-    height: 1px;
-    background-color: #353535;
-}
-
-/* QToolBar */
-
-QToolBar {
-    padding: 2px;
-    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #000000, stop:1 #FFFFFF);
-}
-
-QToolBar QToolButton {
-    padding-top: 2px;
-    padding-bottom: 1px;
-    padding-left: 2px;
-    padding-right: 2px;
-
     border: 0px;
-    background-color: none;
-    color: #000000;
-}
-
-QToolBar QToolButton:hover {
-    background-color: red;
-    color: #F0F0F0;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-}
-
-QToolBar QToolButton:pressed, QToolBar QToolButton:checked {
-    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #646464, stop:1 #4B4B4B);
-    color: #F0F0F0;
-}
-
-QToolBar QToolButton:disabled {
-    border: 0px;
-    background-color: none;
-    color: #A6A5A5;
-}
-
-
-/* QTabBar */
-
-QTabBar::tab {
-    width: 0px;
-    height: 0px;
-}
-
-/* QLabel */
-
-QLabel#lblOverview {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-QLabel#lblSpm{
     color: #FFFFFF;
 }
 
 /* QGroupBox */
 
-QGroupBox#grpTab1Group1 {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+QGroupBox#grpPanel1 {
+    background-color: QLinearGradient( spread:pad, x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #393D66, stop: 1 #1E2433);
 }
 
-QGroupBox#grpTab1Group2 {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+QGroupBox#grpPanel2 {
+    background-color: #3D4457;
+    padding: 20px;
 }
 
-QGroupBox#grpTab1Group3 {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+QGroupBox#grpTab2Panel1 {
+    background-color: #4D5167;
 }
 
-QGroupBox#grpTab1Group4 {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+/* QLabel */
+
+QLabel {
+    background-color: transparent;
 }
 
-QGroupBox#footerLayout {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
+QLabel#lblLogoTitle {
+    padding: 20px;
+}
+
+/* QTabBar */
+
+QTabBar::tab{
+    width: 0px;
+    height: 0px;
+}
+
+/* QPushButton */
+
+QPushButton#btnWallet, QPushButton#btnBuyCrypto, QPushButton#btnSettings {
+    text-align:left;
+    padding: 4px 22px;
+    background-color: transparent;
+}
+
+QPushButton#btnWallet:hover, QPushButton#btnBuyCrypto:hover, QPushButton#btnSettings:hover {
+    background-color: QLinearGradient( spread:pad, x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #393D66, stop: 1 #3D4457);
+}
+
+QPushButton#btnAddWallet {
+    margin: 10px 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 20px;
+    background-color: #1E2433;
+}
+
+QPushButton#btnAddWallet:hover {
+    background-color: #393D66;
+}
+
+QPushButton#btnReceive1, QPushButton#btnSend1, QPushButton#btnBuy1 {
+    width: 100px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    height: 20px;
+    background-color: QLinearGradient( spread:pad, x1: 0, y1: 0, x2: 1, y2: 0, stop: 0 #8858FE, stop: 1 #8457FE);
+}
+
+QPushButton#btnReceive1:hover, QPushButton#btnSend1:hover, QPushButton#btnBuy1:hover {
+    background-color: #1E2433;
+}
+
+QPushButton#btnLoadMore {
+    width: 250px;
+    border: 3px solid #1E2433;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+QPushButton#btnLoadMore:hover, QPushButton#btnMessage:hover, QPushButton#btnMenu1:hover {
+    border: 3px solid #FFFFFF;
+}
+
+QPushButton#btnMessage {
+    padding: 10px;
+    height: 20px;
+    background-color: #1E2433;
+}
+
+/* QListView */
+
+QListView, QScrollArea{
+    background-color: transparent;
 }
 
 /* QScrollBar */
@@ -250,4 +206,3 @@ QScrollBar::add-line:vertical:pressed {
 QScrollBar::sub-line:vertical:pressed {
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #808080, stop:1 #646464);
 }
-

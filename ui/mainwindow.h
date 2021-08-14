@@ -18,8 +18,8 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     void modifyUiSetup();
-    void populateTransactions();
-    QGroupBox *createListItem(vector<QString> item);
+    void populateAction1Lists();
+    QGroupBox *createAction1Item(vector<QString> item);
 
 private:
     Ui::MainWindow *ui;

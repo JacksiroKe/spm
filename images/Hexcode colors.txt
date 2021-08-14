@@ -1,0 +1,12 @@
+Spaceium HEX CODE COLORS
+
+PINK - #dd5695
+
+
+Purple/Blackis - ##1e124f
+
+ICON PURPLE/BLU - #8f59ff
+
+icon box two color - right #25e8de - left -#039cfc
+
+ICON LINUX - left - #de9e32 - right - #ede723

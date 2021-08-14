@@ -1,8 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>overview.png</file>
-        <file>receive.png</file>
-        <file>send.png</file>
         <file>transaction.png</file>
         <file>add_bottom.png</file>
         <file>add_left.png</file>
@@ -18,5 +15,11 @@
         <file>radiobutton_checked_disable.png</file>
         <file>radiobutton_unchecked.png</file>
         <file>radiobutton_unchecked_disable.png</file>
+        <file>specium.png</file>
+        <file>logo_new.png</file>
+        <file>logo.png</file>
+        <file>logo2.png</file>
+        <file>message.png</file>
+        <file>menu.png</file>
     </qresource>
 </RCC>

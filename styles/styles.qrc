@@ -1,5 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>tab.qss</file>
+        <file>theme.qss</file>
     </qresource>
 </RCC>
